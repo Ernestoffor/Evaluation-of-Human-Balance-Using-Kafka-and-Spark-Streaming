@@ -1,0 +1,38 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /opt/spark-2.3.4-bin-hadoop2.7/conf/:/opt/spark-2.3.4-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host fe3130887cc6 --port 7077 --webui-port 8080
+========================================
+2021-09-23 06:55:39 INFO  Master:2612 - Started daemon with process name: 1595@fe3130887cc6
+2021-09-23 06:55:39 INFO  SignalUtils:54 - Registered signal handler for TERM
+2021-09-23 06:55:39 INFO  SignalUtils:54 - Registered signal handler for HUP
+2021-09-23 06:55:39 INFO  SignalUtils:54 - Registered signal handler for INT
+2021-09-23 06:55:41 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2021-09-23 06:55:41 INFO  SecurityManager:54 - Changing view acls to: root
+2021-09-23 06:55:41 INFO  SecurityManager:54 - Changing modify acls to: root
+2021-09-23 06:55:41 INFO  SecurityManager:54 - Changing view acls groups to: 
+2021-09-23 06:55:41 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2021-09-23 06:55:41 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2021-09-23 06:55:43 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2021-09-23 06:55:43 INFO  Master:54 - Starting Spark master at spark://fe3130887cc6:7077
+2021-09-23 06:55:43 INFO  Master:54 - Running Spark version 2.3.4
+2021-09-23 06:55:43 INFO  log:192 - Logging initialized @7860ms
+2021-09-23 06:55:44 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-09-23 06:55:44 INFO  Server:419 - Started @8251ms
+2021-09-23 06:55:44 INFO  AbstractConnector:278 - Started ServerConnector@6142e162{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2021-09-23 06:55:44 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@196a777c{/app,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a2dc112{/app/json,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48a5d40{/,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@123a405c{/json,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@767b2658{/static,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@319ad338{/app/kill,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f88a9b{/driver/kill,null,AVAILABLE,@Spark}
+2021-09-23 06:55:44 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://fe3130887cc6:8080
+2021-09-23 06:55:44 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-09-23 06:55:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3497afda{/,null,AVAILABLE}
+2021-09-23 06:55:45 INFO  AbstractConnector:278 - Started ServerConnector@2603b56a{HTTP/1.1,[http/1.1]}{fe3130887cc6:6066}
+2021-09-23 06:55:45 INFO  Server:419 - Started @8902ms
+2021-09-23 06:55:45 INFO  Utils:54 - Successfully started service on port 6066.
+2021-09-23 06:55:45 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2021-09-23 06:55:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a685eb6{/metrics/master/json,null,AVAILABLE,@Spark}
+2021-09-23 06:55:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48220dd3{/metrics/applications/json,null,AVAILABLE,@Spark}
+2021-09-23 06:55:45 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2021-09-23 07:01:16 INFO  Master:54 - Registering worker 172.18.0.2:40133 with 2 cores, 6.3 GB RAM
